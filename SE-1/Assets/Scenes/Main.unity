@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 66504370}
   - component: {fileID: 66504369}
   - component: {fileID: 66504373}
+  - component: {fileID: 66504374}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -212,6 +213,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: acea869ab8705a04ba469d84961bc27a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &66504374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 66504368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b99d70aea9c31634da5588c9e1fb8876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &391211782
@@ -400,6 +412,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 66504373}
         m_MethodName: DebugConsole
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 66504374}
+        m_MethodName: MouseInput
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

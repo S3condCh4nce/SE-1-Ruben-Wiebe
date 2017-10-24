@@ -10,7 +10,7 @@ public class DetectMouseInput : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	public void MouseInput() {
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log("Left");
