@@ -5,8 +5,8 @@ using UnityEngine;
 public class PrintDebugLog : MonoBehaviour {
 
 	// Use this for initialization
-	void DebugConsole()
+	public void DebugConsole()
     {
-        Debug.Log("Action Performed");
+        Debug.Log("Unkle Dane says: Action Performed");
     }
 }
