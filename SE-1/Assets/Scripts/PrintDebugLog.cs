@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PrintDebugLog : MonoBehaviour {
 
-	// Use this for initialization
+	// Sends a Debug Message to the Unity Console to check that the action is performed
 	public void DebugConsole()
     {
         Debug.Log("Unkle Dane says: Action Performed");
