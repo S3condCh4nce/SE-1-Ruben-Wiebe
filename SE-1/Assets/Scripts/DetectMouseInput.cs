@@ -3,11 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DetectMouseInput : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
 	//Detects what Mouse Button is pressed
 	public void MouseInput() {
